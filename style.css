@@ -1,0 +1,108 @@
+body{
+    background: color #f4f4f4;
+    color: #555;
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color:white;
+    color:black;
+    text-align: center;
+
+}
+
+#main-header h1{
+    margin-top: 50px;
+    font-size: 44px;
+}
+
+#main-header h2{
+    font-size: 20px;
+    margin-top: -15px;
+    color:#555;
+}
+
+#navbar{
+    background-color:white;
+    color:black;
+    text-align: center;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+#navbar a:hover{
+    color:red;
+}
+
+#showcase{
+    background-image:url('assets/cross.jpg');
+    background-position: center right;
+    min-height:300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color:white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top:30px;
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background: #333;
+    color: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
