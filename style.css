@@ -103,7 +103,7 @@ body{
     margin-top: 40px;
 }
 
-@media(max-width:600px){
+@media(max-width:728px){
     #main{
         width:100%;
         float:none;
